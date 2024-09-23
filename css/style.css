@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+}
+.container .images {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.container .bigImagesContainer {
+  width: 450px;
+  overflow: hidden;
+}
+.container .bigImages {
+  display: flex;
+  transition: all 0.5s;
+  height: 350px;
+  width: 1800px;
+}
+.container .bigImages img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 450px;
+}
+.container .smallImages {
+  display: flex;
+  width: 450px;
+  height: 100px;
+}
+.container .smallImages img {
+  border-radius: 15px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.container .infoLaptopAndLaptop {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px 50px;
+}
+.container .laptopInfo {
+  display: flex;
+  gap: 30px;
+  text-align: left;
+  margin-top: 20px;
+}
+.container .laptopInfo div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container .border {
+  border: 1px solid black;
+}
+.container .infoLaptop {
+  vertical-align: top;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 20px;
+  width: 400px;
+}
+.container .infoLaptop h2 {
+  display: inline-block;
+  width: -moz-max-content;
+  width: max-content;
+}
+.container ul {
+  width: 400px;
+  margin-left: 20px;
+}
+.container li {
+  margin-top: 10px;
+}
+.container .about-and-Productinformation {
+  border-bottom: 2px solid #948d8d;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.container .containerAbout {
+  text-align: left;
+  width: -moz-max-content;
+  width: max-content;
+  border-right: 2px solid #948d8d;
+  padding-right: 10px;
+}
+.container .summaryAndOtherTechnicalDetailsInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.container .summaryInfo {
+  display: flex;
+  gap: 30px;
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.container .summaryInfo div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container .summaryOne b {
+  background-color: #F0F2F2;
+  padding: 5px;
+}
+.container .summaryTwo span {
+  border-bottom: 1px solid black;
+  padding: 5px;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.loadMore {
+  display: block;
+  margin: 50px auto;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  font-size: 18px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 5px 1px #a3a1a1;
+}/*# sourceMappingURL=style.css.map */

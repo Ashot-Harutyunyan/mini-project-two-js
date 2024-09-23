@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    text-align: center;
+
+.images {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+.bigImagesContainer {
+    width: 450px;
+    overflow: hidden;
+}
+.bigImages {
+    display: flex;
+    transition: all 0.5s;
+    height: 350px;
+    width: 1800px;
+    img {
+        object-fit: contain;
+        width: 450px;
+    }
+}
+.smallImages {
+    display: flex;
+    width: 450px;
+    height: 100px;
+    img {
+        border-radius: 15px;
+        object-fit: contain;
+        width: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+}
+.infoLaptopAndLaptop {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 50px;
+
+}
+.laptopInfo {
+    display: flex;
+    gap: 30px;
+    text-align: left;
+    margin-top: 20px;
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+.border {
+    border: 1px solid black;
+}
+.infoLaptop {
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 400px;
+    h2 {
+        display: inline-block;
+        width: max-content;
+    }
+}
+ul {
+    width: 400px;
+    margin-left: 20px;
+}
+li {
+    margin-top: 10px;
+}
+.about-and-Productinformation {
+    border-bottom: 2px solid #948d8d;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.containerAbout {
+    text-align: left;
+    width: max-content;
+    border-right: 2px solid #948d8d;
+    padding-right: 10px;
+}
+.summaryAndOtherTechnicalDetailsInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.summaryInfo {
+    display: flex;
+    gap: 30px;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+.summaryOne {
+    b {
+        background-color: #F0F2F2;
+        padding: 5px;
+    }
+}
+.summaryTwo {
+    span {
+        border-bottom: 1px solid black;
+        padding: 5px;
+        width: max-content;
+    }
+}
+}
+.loadMore {
+    display: block;
+    margin: 50px auto;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-size: 18px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px 1px #a3a1a1;
+}
